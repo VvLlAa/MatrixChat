@@ -4,8 +4,8 @@ import { useMainStore } from "@/stores/MainStore.js";
 
 const MainStore = useMainStore();
 const homeserver = ref('https://matrix.org');
-const username = ref('visss');
-const password = ref('Wd$fM7Yu8.FZZnC');
+const username = ref('');
+const password = ref('');
 
 const handleLogin = async () => {
   await MainStore.login(homeserver.value, username.value, password.value);
