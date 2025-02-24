@@ -1,29 +1,13 @@
-# .
+Для запуска проекта: https://spontaneous-hummingbird-251c63.netlify.app/
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Тестирование функционала
+1. Регистрация и создание комнат в ElementПеред тестированием убедитесь, что у вас есть учетная запись в Matrix и созданные комнаты:
+1.1 Перейдите на https://app.element.io/.
+1.2 Зарегистрируйте новую учетную запись или войдите в существующую.
+1.3 Подключитесь к вашему homeserver'у (например, https://matrix.org).
+1.4 Создайте несколько комнат и отправьте туда несколько сообщений.
+2. Проверка работы приложенияЗапустите приложение в предоставленной среде.
+2.1 Введите URL homeserver'а, имя пользователя и пароль.
+2.2 Нажмите кнопку Login.
+2.3 После успешного входа должны отобразиться комнаты, созданные в Element.
+2.4 Проверьте, что изменения (новые сообщения, создание новых комнат) корректно отображаются в приложении.
